@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, EATDOTActivity!</string>
+    <string name="app_name">吃豆豆</string>
+    <string name="about_title">纸牌游戏</string>
+    <string name="setting">设置</string>
+    <string name="radiobutton_control">1.控制方式</string>
+    <string name="radio_touch">手势识别</string>
+    <string name="radio_sensor">重力感应</string>
+    <string name="radiobutton_sound">2.声音</string>
+    <string name="radio_yes">打开</string>
+    <string name="radio_no">关闭</string>
+    <string name="set_sure">确定</string>
+
+</resources>

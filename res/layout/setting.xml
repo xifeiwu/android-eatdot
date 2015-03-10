@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@drawable/scorebg">
+	<TextView 
+	android:id="@+id/textview_setting"
+	android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:textColor="@drawable/yellow"
+		android:textSize="25sp" 
+		android:gravity="center_vertical|center_horizontal"
+		android:text="@string/setting">
+	</TextView>
+
+	<RadioGroup 
+		android:id="@+id/control_radiogroup"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		>
+		<TextView 
+		android:id="@+id/textview_tip"
+		android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:textColor="@drawable/red"
+			android:textSize="16sp" 
+			android:text="@string/radiobutton_control">
+		</TextView>
+		<RadioButton 
+			android:id="@+id/touch_rb"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:textColor="@drawable/white"
+			android:textSize="16sp" 
+			android:text="@string/radio_touch"
+			/>
+		<RadioButton 
+			android:id="@+id/sensor_rb"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:textColor="@drawable/white"
+			android:textSize="16sp" 
+			android:text="@string/radio_sensor"
+			/>
+	</RadioGroup>
+
+	<RadioGroup 
+		android:id="@+id/sound_radiogroup"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		>
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:textColor="@drawable/red"
+			android:textSize="16sp" 
+			android:text="@string/radiobutton_sound">
+		</TextView>
+		<RadioButton 
+			android:id="@+id/yes_rb"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:textColor="@drawable/white"
+			android:textSize="16sp" 
+			android:text="@string/radio_yes"
+			/>
+		<RadioButton 
+			android:id="@+id/no_rb"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:textColor="@drawable/white"
+			android:textSize="16sp" 
+			android:text="@string/radio_no"
+			/>
+	</RadioGroup>
+	
+	<Button
+	android:id="@+id/set_ok_btn"   
+    android:layout_width="150dp"
+    android:layout_height="40dp"  
+	android:textColor="@drawable/blue"
+	android:textSize="16sp"
+	android:text="@string/set_sure"
+	android:layout_gravity="center_vertical|center_horizontal"
+	>
+</Button>
+</LinearLayout>
+
+
+<!--
+
+			android:text="@string/radio_level"
+			android:text="@string/radio_score"
+			-->

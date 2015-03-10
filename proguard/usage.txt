@@ -1,0 +1,54 @@
+wxf.eatdot.EATDOTActivity:
+    public static final int WVGA
+    public static final int HVGA
+    public static final int TOUCH
+    public static final int SENSOR
+    public static final int MENUVIEW
+    public static final int SETTINGVIEW
+    public static final int SCOREVIEW
+    public static final int ABOUTVIEW
+    public static final int GAMEVIEW
+    public static final int CLIPBMPVIEW
+wxf.eatdot.Eater:
+    public static final int READY
+    public static final int GO
+    public static final int POWER
+    public static final int BOUNCE
+    public static final int FULL
+    public static final int DEAD
+    public static final int NONE
+    public static final int UP
+    public static final int DOWN
+    public static final int LEFT
+    public static final int RIGHT
+wxf.eatdot.GameView:
+    public static final int READY
+    public static final int PLAYING
+    public static final int BOUNCE
+    public static final int EATERDIE
+    public static final int PAUSE
+    public static final int NEXTLEVEL
+    public static final int GAMEOVER
+    public static final int TOUCHTOMENUVIEW
+    public static final long MILLISPERSECOND
+    public int gameW
+    public int gameH
+wxf.eatdot.R
+wxf.eatdot.R$attr
+wxf.eatdot.R$drawable
+wxf.eatdot.R$id
+wxf.eatdot.R$layout
+wxf.eatdot.R$raw
+wxf.eatdot.R$string
+wxf.eatdot.Sprite:
+    public static final int READY
+    public static final int COMEOUT
+    public static final int GO
+    public static final int WEAK
+    public static final int DEAD
+    public static final int NONE
+    public static final int UP
+    public static final int DOWN
+    public static final int LEFT
+    public static final int RIGHT
+    public int wantDir
